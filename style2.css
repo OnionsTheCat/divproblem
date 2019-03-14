@@ -1,0 +1,26 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/* Boxes */
+#boxes-page-list{
+  margin-top:20px;
+}
+
+#boxes-page-list .box{
+  float:left;
+  text-align: left;
+  width:300px;
+  padding:20px;
+  z-index: -1;
+}
